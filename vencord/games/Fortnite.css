@@ -1,0 +1,115 @@
+/**
+ * @name Fortnite Underground
+ * @author CloveTwilight3/EstrocordHRT
+ * @version 1.0.0
+ * @description A custom Fortnite Theme.
+ */
+
+/* IMPORT CSS */
+@import url("https://clove-vencord-themes.github.io/api.css");
+@import url("https://clove-vencord-themes.github.io/vencord.css");
+
+/* SETTINGS */
+:root {
+    /* ACCENT COLORS */
+    --main-color: #00D4FF;        /* Bright cyan/blue (iconic Fortnite color) */
+    --hover-color: #7DFFFF;       /* Lighter cyan for hover states */
+    --success-color: #FFD700;     /* Golden yellow (Victory Royale) */
+    --danger-color: #FF4655;      /* Red for danger/storm */
+
+    /* STATUS COLORS */
+    --online-color: #00FF94;      /* Bright green */
+    --idle-color: #FFD700;        /* Gold/yellow */
+    --dnd-color: #FF4655;         /* Red */
+    --streaming-color: #B24BF3;   /* Purple (like rarities) */
+    --offline-color: #8B8B8B;     /* Gray */
+
+    /* APP BACKGROUND */
+    --background-shading-percent: 100%;
+    --background-image: url(https://clove-vencord-themes.github.io/images/backgrounds/Fortnite_Underground.jpg);
+    --background-position: center;
+    --background-size: cover;
+    --background-attachment: fixed;
+    --background-filter: saturate(calc(var(--saturation-factor, 1) * 1.2));
+
+    /* USER POPOUT BACKGROUND */
+    --user-popout-image: var(--background-image);
+    --user-popout-position: var(--background-position);
+    --user-popout-size: var(--background-size);
+    --user-popout-attachment: var(--background-attachment);
+    --user-popout-filter: var(--background-filter);
+
+    /* USER MODAL BACKGROUND */
+    --user-modal-image: var(--background-image);
+    --user-modal-position: var(--background-position);
+    --user-modal-size: var(--background-size);
+    --user-modal-attachment: var(--background-attachment);
+    --user-modal-filter: var(--background-filter);
+
+    /* HOME ICON */
+    --home-icon: url(YOUR_FORTNITE_ICON_URL);
+    --home-size: cover;
+
+    /* FONTS */
+    --main-font: "Comic Code", "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --code-font: "Comic Code", Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
+
+    /* CHANNEL COLORS */
+    --channel-normal: var(--interactive-normal);
+    --channel-muted: var(--interactive-muted);
+    --channel-hover: var(--interactive-hover);
+    --channel-selected: var(--interactive-active);
+    --channel-selected-bg: var(--main-color);
+    --channel-unread: var(--main-color);
+    --channel-unread-hover: var(--hover-color);
+
+    /* ACCESSIBILITY */
+    --focus-color: var(--main-color);
+}
+
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+    --background-shading: rgba(255, 255, 255, 0.25);
+    --card-shading: rgba(255, 255, 255, 0.35);
+    --popout-shading: rgba(255, 255, 255, 0.75);
+    --modal-shading: rgba(255, 255, 255, 0.55);
+    --input-shading: rgba(0, 0, 0, 0.25);
+    --normal-text: #2C2C2C;
+    --muted-text: #6B6B6B;
+}
+
+/* ASH THEME */
+:is(.theme-dark, .theme-light .theme-dark) {
+    --background-shading: rgba(13, 25, 50, 0.5);      /* Deep blue tint */
+    --card-shading: rgba(0, 212, 255, 0.08);          /* Slight cyan tint */
+    --popout-shading: rgba(13, 25, 50, 0.7);
+    --modal-shading: rgba(0, 0, 0, 0.45);
+    --input-shading: rgba(0, 212, 255, 0.08);
+    --normal-text: #E8F4FF;
+    --muted-text: #A8C5D6;
+}
+
+/* DARK THEME */
+:is(.theme-darker, .theme-light .theme-darker) {
+    --background-shading: rgba(10, 20, 40, 0.65);     /* Darker blue-black */
+    --card-shading: rgba(0, 212, 255, 0.12);          /* Cyan card tint */
+    --popout-shading: rgba(10, 20, 40, 0.8);
+    --modal-shading: rgba(0, 0, 0, 0.6);
+    --input-shading: rgba(0, 212, 255, 0.1);
+    --normal-text: #FFFFFF;
+    --muted-text: #9CB4C6;
+}
+
+/* ONYX THEME */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+    --background-shading: rgba(0, 10, 25, 0.85);      /* Very dark blue-black */
+    --card-shading: rgba(0, 212, 255, 0.15);
+    --popout-shading: rgba(0, 10, 25, 0.9);
+    --modal-shading: rgba(0, 0, 0, 0.75);
+    --input-shading: rgba(0, 212, 255, 0.12);
+    --normal-text: #E0F2FF;
+    --muted-text: #7A98AC;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
