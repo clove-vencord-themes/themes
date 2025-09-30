@@ -1,3 +1,5 @@
+<div align="center">
+
 # Clove's Discord Themes 🎨
 
 A collection of custom Discord themes for Vencord and BetterDiscord, featuring vibrant designs inspired by games, vocaloids, and more!
@@ -58,3 +60,5 @@ If you enjoy these themes, consider:
 ---
 
 **Note:** These themes require either Vencord or BetterDiscord to be installed. Discord does not officially support client modifications, and they also break ToS, so use at your own discretion.
+
+</div>
