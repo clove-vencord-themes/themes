@@ -5,11 +5,12 @@ A collection of custom Discord themes for Vencord and BetterDiscord, featuring v
 ## 📦 Available Themes
 
 ### Games
-- **Cyberpunk 2077** - Neon-soaked aesthetic with vibrant pink and cyan accents
-- **Minecraft** - Cherry blossom pink meets blocky charm
+- **Cyberpunk 2077**
+- **Minecraft**
+- **Fortnite Undergrpund**
 
 ### Vocaloid
-- **Miku** - Aqua and cyan theme inspired by everyone's favorite virtual idol
+- **Miku**
 
 ## 🎨 Theme Features
 
