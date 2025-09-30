@@ -7,7 +7,7 @@ A collection of custom Discord themes for Vencord and BetterDiscord, featuring v
 ### Games
 - **Cyberpunk 2077**
 - **Minecraft**
-- **Fortnite Undergrpund**
+- **Fortnite Underground**
 
 ### Vocaloid
 - **Miku**
